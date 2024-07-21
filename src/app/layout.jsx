@@ -1,18 +1,18 @@
-import { Inter } from "next/font/google";
+import { Recursive } from "next/font/google";
 import "./globals.css";
 import Navbar from "./components/Navbar";
 
-const inter = Inter({ subsets: ["latin"] });
+const recursive = Recursive({ subsets: ["latin"] });
 
 export const metadata = {
-  title: "Daniel Emehinola",
+  title: "Dan Emehin",
   description: "Daniel's Portfolio",
 };
 
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
-      <body className={inter.className}>
+      <body className={recursive.className}>
         <Navbar />
         {children}
       </body>
