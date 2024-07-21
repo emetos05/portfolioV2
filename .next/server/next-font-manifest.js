@@ -1,1 +1,0 @@
-self.__NEXT_FONT_MANIFEST="{\"pages\":{},\"app\":{\"/home/emetos05/Projects/Portfolio/portfolioV2/src/app/layout\":[\"static/media/745fad513dbbaaea-s.p.woff2\"]},\"appUsingSizeAdjust\":true,\"pagesUsingSizeAdjust\":false}"
