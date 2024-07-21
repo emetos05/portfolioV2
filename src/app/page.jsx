@@ -46,10 +46,12 @@ export default function Home() {
             <h1 className="mb-4">Hi, I'm</h1>
           </div>
           <div>
-            <h2 className="text-[#c7ff5e] text-6xl">Dan Emehin.</h2>
+            <h2 className="text-[#c7ff5e] text-4xl sm:text-6xl">Dan Emehin.</h2>
           </div>
           <div>
-            <h3 className="green-100 text-6xl">I piece things together.</h3>{" "}
+            <h3 className="green-100 text-4xl sm:text-6xl">
+              I piece things together.
+            </h3>{" "}
           </div>
           <div>
             <p className="mt-10 text-green-100">
