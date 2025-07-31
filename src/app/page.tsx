@@ -6,8 +6,8 @@ import Navbar from "./components/Navbar";
 import Intro from "./components/Intro";
 import GithubIcon from "./components/social/Github";
 import LinkedInIcon from "./components/social/LinkedIn";
-import TwitterIcon from "./components/social/Twitter";
-import InstagramIcon from "./components/social/Instagram";
+// import TwitterIcon from "./components/social/Twitter";
+// import InstagramIcon from "./components/social/Instagram";
 import Experience from "./components/Experience";
 import Projects from "./components/Projects";
 
@@ -24,14 +24,14 @@ export default function Home() {
           animate={{ opacity: 1, x: 0 }}
           transition={{ duration: 0.8, delay: 0.2 }}
         >
-          <div className="w-1 sm:h-60 h-30 bg-gradient-to-t from-[#c7ff5e]" />
+          <div className="w-1 md:h-80 bg-gradient-to-t from-[#c7ff5e]" />
           <motion.div
             className="w-2 h-2 rounded-full bg-[#c7ff5e]"
             animate={{ scale: [1, 1.2, 1] }}
             transition={{ duration: 2, repeat: Infinity }}
           />
           <div className="text-green-100">
-            <ul className="h-52 flex flex-col justify-between items-center my-2 py-2 mx-auto px-auto [&_li:hover]:text-yellow-100">
+            <ul className="h-auto flex flex-col justify-between items-center gap-8 my-4 py-4 mx-auto px-auto [&_li:hover]:text-yellow-100">
               <motion.li
                 whileHover={{ scale: 1.1 }}
                 transition={{ duration: 0.2 }}
@@ -56,7 +56,7 @@ export default function Home() {
                   <LinkedInIcon />
                 </Link>
               </motion.li>
-              <motion.li
+              {/* <motion.li
                 whileHover={{ scale: 1.1 }}
                 transition={{ duration: 0.2 }}
               >
@@ -71,7 +71,7 @@ export default function Home() {
                 <Link href="#" aria-label="Instagram">
                   <InstagramIcon />
                 </Link>
-              </motion.li>
+              </motion.li> */}
             </ul>
           </div>
           <motion.div
@@ -79,7 +79,7 @@ export default function Home() {
             animate={{ scale: [1, 1.2, 1] }}
             transition={{ duration: 2, repeat: Infinity, delay: 1 }}
           />
-          <div className="w-1 sm:h-60 h-30 bg-gradient-to-b from-[#c7ff5e]" />
+          <div className="w-1 md:h-80 bg-gradient-to-b from-[#c7ff5e]" />
         </motion.div>
 
         {/* Main Content */}
@@ -185,13 +185,13 @@ export default function Home() {
           animate={{ opacity: 1, x: 0 }}
           transition={{ duration: 0.8, delay: 0.4 }}
         >
-          <div className="w-1 sm:h-60 h-30 bg-gradient-to-t from-[#c7ff5e]" />
+          <div className="w-1 md:h-80 bg-gradient-to-t from-[#c7ff5e]" />
           <motion.div
             className="w-2 h-2 rounded-full bg-[#c7ff5e]"
             animate={{ scale: [1, 1.2, 1] }}
             transition={{ duration: 2, repeat: Infinity, delay: 0.5 }}
           />
-          <div className="h-52 flex flex-col items-center my-2 py-2 mx-auto px-auto text-green-100 hover:text-yellow-100">
+          <div className="h-auto flex flex-col items-center my-2 py-2 mx-auto px-auto text-green-100 hover:text-yellow-100">
             <motion.div
               whileHover={{ scale: 1.05 }}
               transition={{ duration: 0.2 }}
@@ -209,7 +209,7 @@ export default function Home() {
             animate={{ scale: [1, 1.2, 1] }}
             transition={{ duration: 2, repeat: Infinity, delay: 1.5 }}
           />
-          <div className="w-1 sm:h-60 h-30 bg-gradient-to-b from-[#c7ff5e]" />
+          <div className="w-1 md:h-80 bg-gradient-to-b from-[#c7ff5e]" />
         </motion.div>
       </div>
     </div>
