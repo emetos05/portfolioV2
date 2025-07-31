@@ -4,6 +4,7 @@ export interface Project {
   description: string;
   html_url: string;
   homepage?: string;
+  preview: string;
   language: string;
   topics?: string[];
   updated_at: string;
@@ -23,6 +24,7 @@ export const projects: Project[] = [
       "A jobs management platform for tradespeople with none of the complications",
     html_url: "https://github.com/emetos05/tradetrackr_client",
     homepage: "https://tradetrackrclient.vercel.app",
+    preview: "/images/tradetrackr.png",
     language: "TypeScript",
     topics: ["invoice", "tracker", "trades", "business"],
     updated_at: "2025-07-30T11:01:25Z",
@@ -40,6 +42,7 @@ export const projects: Project[] = [
       "A simple loan eligibility checker tailored to newcomers in Saskatchewan",
     html_url: "https://github.com/emetos05/saskfund",
     homepage: "https://saskfund.netlify.app/",
+    preview: "/images/saskfund.png",
     language: "JavaScript",
     topics: ["finance", "eligibility", "saskatchewan", "newcomers"],
     updated_at: "2025-07-26T13:29:45Z",
@@ -56,6 +59,7 @@ export const projects: Project[] = [
     description: "Invoice tracking application UI",
     html_url: "https://github.com/emetos05/invoicetrack",
     homepage: "https://invoicetrack.netlify.app/",
+    preview: "/images/invoicetrack.png",
     language: "JavaScript",
     topics: ["invoice", "tracking", "ui"],
     updated_at: "2025-07-26T16:21:41Z",
@@ -71,7 +75,8 @@ export const projects: Project[] = [
     name: "tradetrackr API",
     description: ".NET 8.0 Web API for tradetrackr client app",
     html_url: "https://github.com/emetos05/tradetrackr_api",
-    homepage: "",
+    homepage: "https://tradetrackr-kgdc.onrender.com/swagger/index.html",
+    preview: "/images/tradetrackr_api.png",
     language: "C#",
     topics: ["trades", "clients", "jobs", "invoices"],
     updated_at: "2025-07-28T21:38:25Z",

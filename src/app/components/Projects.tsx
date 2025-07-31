@@ -1,6 +1,7 @@
 "use client";
 
 import React from "react";
+import Image from "next/image";
 import { motion } from "framer-motion";
 import {
   ExternalLink,
@@ -34,16 +35,18 @@ const ProjectCard: React.FC<ProjectCardProps> = ({ project, index }) => {
     >
       {/* Project Image/Preview */}
       <div className="flex-1 relative">
-        <div className="relative bg-gradient-to-br from-green-900/20 to-yellow-900/20 rounded-lg p-8 border border-green-800/30 backdrop-blur-sm">
+        <div className="relative bg-gradient-to-br from-green-900/20 to-yellow-900/20 rounded-lg p-4 border border-green-800/30 backdrop-blur-sm">
+          <Image
+            src={project.preview}
+            alt={project.name}
+            layout="responsive"
+            width={100}
+            height={40}
+            className="rounded-lg"
+          />
           <div className="text-center">
-            <div className="w-16 h-16 mx-auto mb-4 bg-[#c7ff5e]/20 rounded-full flex items-center justify-center">
-              <Code className="w-8 h-8 text-[#c7ff5e]" />
-            </div>
-            <div className="text-2xl font-bold text-[#c7ff5e] mb-2">
+            <div className="text-2xl font-bold text-[#c7ff5e] mt-2 mb-2">
               {project.name}
-            </div>
-            <div className="text-green-100 text-sm mb-4">
-              {new Date(project.created_at).getFullYear()}
             </div>
             {project.language && (
               <div className="inline-block px-3 py-1 bg-green-800/30 text-green-100 text-xs rounded-full">
@@ -77,10 +80,6 @@ const ProjectCard: React.FC<ProjectCardProps> = ({ project, index }) => {
           </div>
 
           <div className="flex items-center gap-4 text-sm text-green-300">
-            <div className="flex items-center gap-1">
-              <Calendar className="w-4 h-4" />
-              <span>{new Date(project.updated_at).toLocaleDateString()}</span>
-            </div>
             {project.stargazers_count > 0 && (
               <div className="flex items-center gap-1">
                 <Star className="w-4 h-4" />
