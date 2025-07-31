@@ -1,37 +1,119 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Portfolio V2 - Dan Emehin
 
-## Getting Started
+A modern, responsive portfolio website showcasing my software development projects and experience.
 
-First, run the development server:
+## 🚀 Features
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+- **Modern UI/UX**: Enhanced with Framer Motion animations and smooth interactions
+- **Responsive Design**: Optimized for all devices using Tailwind CSS
+- **Real GitHub Projects**: Dynamically displays actual deployed projects from GitHub
+- **Interactive Elements**: Hover effects, smooth scrolling, and animated components
+- **Performance Optimized**: Built with Next.js 14 and TypeScript
+
+## 🛠️ Technologies Used
+
+- **Frontend**: Next.js 14, React 18, TypeScript
+- **Styling**: Tailwind CSS
+- **Animations**: Framer Motion
+- **Icons**: Lucide React
+- **UI Components**: Radix UI primitives
+- **Deployment**: Vercel (recommended)
+
+## 📦 Packages Added
+
+```json
+{
+  "framer-motion": "^11.x",
+  "lucide-react": "^0.x",
+  "@radix-ui/react-slot": "^1.x",
+  "class-variance-authority": "^0.x",
+  "clsx": "^2.x",
+  "tailwind-merge": "^2.x"
+}
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## 🎨 Design Features
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+- **Color Scheme**: Green and yellow theme
+- **Typography**: Improved hierarchy and readability
+- **Animations**: Subtle but engaging motion design
+- **Layout**: Clean, modern sections with proper spacing
+- **Accessibility**: Proper focus states and semantic HTML
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+## 📊 Projects Showcase
 
-## Learn More
+The portfolio automatically displays projects from my GitHub account including:
 
-To learn more about Next.js, take a look at the following resources:
+- **TradeTrackr Client**: Invoice tracker for tradespeople (TypeScript, React)
+- **InvoiceTrack**: Invoice tracking application UI (JavaScript)
+- **SaskFund**: Loan eligibility checker for Saskatchewan newcomers (JavaScript)
+- **Tours**: Travel tour details application (JavaScript)
+- **Forkify**: Recipe lookup application (JavaScript)
+- **Foodie**: Food discovery application (JavaScript)
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## 🚀 Getting Started
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+1. **Clone the repository**
 
-## Deploy on Vercel
+   ```bash
+   git clone https://github.com/emetos05/portfolioV2.git
+   cd portfolioV2
+   ```
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+2. **Install dependencies**
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
-# portfolioV2
+   ```bash
+   npm install
+   ```
+
+3. **Run the development server**
+
+   ```bash
+   npm run dev
+   ```
+
+4. **Open your browser**
+   Navigate to [http://localhost:3000](http://localhost:3000)
+
+## 📁 Project Structure
+
+```
+src/
+├── app/
+│   ├── components/
+│   │   ├── Experience.tsx     # Experience timeline
+│   │   ├── Intro.tsx          # Introduction section
+│   │   ├── Navbar.tsx         # Navigation component
+│   │   ├── Projects.tsx       # Projects showcase
+│   │   └── social/            # Social media icons
+│   ├── globals.css            # Global styles
+│   ├── layout.tsx             # Root layout
+│   └── page.tsx               # Main page
+├── data/
+│   └── projects.ts            # Project data
+└── lib/
+    └── utils.ts               # Utility functions
+```
+
+## 🎯 Key Improvements
+
+1. **Enhanced Projects Section**: Real data from GitHub with live demo links
+2. **Modern Animations**: Framer Motion for smooth, professional interactions
+3. **Better Navigation**: Smooth scrolling navbar with mobile menu
+4. **Improved Accessibility**: Better focus states and semantic structure
+5. **Performance**: Optimized images and efficient animations
+6. **Mobile Experience**: Enhanced responsive design
+
+## 📧 Contact
+
+- **Email**: dan.emehin@gmail.com
+- **LinkedIn**: [danielemehin](https://linkedin.com/in/danielemehin)
+- **GitHub**: [emetos05](https://github.com/emetos05)
+
+## 📄 License
+
+This project is open source and available under the [MIT License](LICENSE).
+
+---
+
+Built with ❤️ by Dan Emehin
