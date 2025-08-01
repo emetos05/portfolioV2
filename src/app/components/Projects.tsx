@@ -39,7 +39,11 @@ const ProjectCard: React.FC<ProjectCardProps> = ({ project, index }) => {
           <Image
             src={project.preview}
             alt={project.name}
-            layout="responsive"
+            sizes="100vw"
+            style={{
+              width: "100%",
+              height: "auto",
+            }}
             width={100}
             height={40}
             className="rounded-lg"
