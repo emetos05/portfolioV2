@@ -3,3 +3,7 @@ node_modules
 .cache
 .vscode
 .next
+
+// Ignore environment files
+.env.local
+.vercel

@@ -1,6 +1,6 @@
 "use client";
 
-import React from "react";
+import React, { Suspense } from "react";
 import Image from "next/image";
 import { motion } from "framer-motion";
 import {
@@ -12,6 +12,7 @@ import {
   GitFork,
 } from "lucide-react";
 import { projects, featuredProjects } from "../../data/projects";
+import VideoComponent from "./Video";
 import { cn } from "../../lib/utils";
 
 interface ProjectCardProps {
@@ -33,21 +34,33 @@ const ProjectCard: React.FC<ProjectCardProps> = ({ project, index }) => {
         isEven ? "md:flex-row" : "md:flex-row-reverse"
       )}
     >
-      {/* Project Image/Preview */}
+      {/* Project Video/Preview */}
       <div className="flex-1 relative">
-        <div className="relative bg-gradient-to-br from-green-900/20 to-yellow-900/20 rounded-lg p-4 border border-green-800/30 backdrop-blur-sm">
-          <Image
-            src={project.preview}
-            alt={project.name}
-            sizes="100vw"
-            style={{
-              width: "100%",
-              height: "auto",
-            }}
-            width={100}
-            height={40}
-            className="rounded-lg"
-          />
+        <div className="relative bg-gradient-to-br from-green-900/20 to-yellow-900/20 rounded-lg p-4 border border-green-800/30 backdrop-blur-sm overflow-hidden">
+          {project.preview.endsWith(".mp4") ||
+          project.preview.endsWith(".webm") ||
+          project.preview.endsWith(".mov") ? (
+            <Suspense
+              fallback={
+                <div className="w-6 h-6 border-4 border-green-100 border-t-transparent rounded-full animate-spin"></div>
+              }
+            >
+              <VideoComponent fileName={project.preview} />
+            </Suspense>
+          ) : (
+            <Image
+              src={project.preview}
+              alt={project.name}
+              sizes="100vw"
+              style={{
+                width: "100%",
+                height: "auto",
+              }}
+              width={100}
+              height={40}
+              className="rounded-lg"
+            />
+          )}
           <div className="text-center">
             <div className="text-2xl font-bold text-[#c7ff5e] mt-2 mb-2">
               {project.name}

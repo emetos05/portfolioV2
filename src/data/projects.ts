@@ -4,7 +4,7 @@ export interface Project {
   description: string;
   html_url: string;
   homepage?: string;
-  preview: string;
+  preview: string; // Can be video (.mp4, .webm, .mov) or image (.png, .jpg, .jpeg, .webp)
   language: string;
   topics?: string[];
   updated_at: string;
@@ -24,7 +24,7 @@ export const projects: Project[] = [
       "A jobs management platform for tradespeople with none of the complications",
     html_url: "https://github.com/emetos05/tradetrackr_client",
     homepage: "https://tradetrackrclient.vercel.app",
-    preview: "/images/tradetrackr.png",
+    preview: "/videos/tradetrackr.webm",
     language: "TypeScript",
     topics: ["invoice", "tracker", "trades", "business"],
     updated_at: "2025-07-30T11:01:25Z",
@@ -42,7 +42,7 @@ export const projects: Project[] = [
       "A simple loan eligibility checker tailored to newcomers in Saskatchewan",
     html_url: "https://github.com/emetos05/saskfund",
     homepage: "https://saskfund.netlify.app/",
-    preview: "/images/saskfund.png",
+    preview: "/videos/saskfund.webm",
     language: "JavaScript",
     topics: ["finance", "eligibility", "saskatchewan", "newcomers"],
     updated_at: "2025-07-26T13:29:45Z",
