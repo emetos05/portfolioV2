@@ -59,7 +59,7 @@ export const projects: Project[] = [
     description: "Invoice tracking application UI",
     html_url: "https://github.com/emetos05/invoicetrack",
     homepage: "https://invoicetrack.netlify.app/",
-    preview: "/images/invoicetrack.png",
+    preview: "/videos/invoicetrack.webm",
     language: "JavaScript",
     topics: ["invoice", "tracking", "ui"],
     updated_at: "2025-07-26T16:21:41Z",
@@ -90,7 +90,8 @@ export const projects: Project[] = [
 ];
 
 export const featuredProjects = [
-  "tradetrackr_client",
+  "tradetrackr client",
   "saskfund",
   "invoicetrack",
+  "tradetrackr API",
 ];
