@@ -1,5 +1,6 @@
 import React from "react";
 import { Recursive } from "next/font/google";
+import { Analytics } from "@vercel/analytics/next";
 import "./globals.css";
 import Navbar from "./components/Navbar";
 
@@ -10,12 +11,17 @@ export const metadata = {
   description: "Daniel's Portfolio",
 };
 
-export default function RootLayout({ children }: { children: React.ReactNode }) {
+export default function RootLayout({
+  children,
+}: {
+  children: React.ReactNode;
+}) {
   return (
     <html lang="en">
       <body className={recursive.className}>
         <Navbar />
         {children}
+        <Analytics />
       </body>
     </html>
   );
