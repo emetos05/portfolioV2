@@ -24,7 +24,7 @@ const Intro: React.FC = () => {
           I'm a software engineer building modern apps that eliminate business
           pain points. With experience in full-stack development, I specialize
           in creating scalable solutions using modern technologies like React,
-          Next.js, TypeScript, C# and Node.js.
+          NextJS, TypeScript, Python and NodeJS.
         </p> */}
 
         <motion.div
@@ -98,9 +98,9 @@ const Intro: React.FC = () => {
           <div className="flex flex-wrap gap-3">
             {[
               "React",
-              "Next.js",
+              "NextJS",
               "TypeScript",
-              "Node.js",
+              "NodeJS",
               "Python",
               "FastAPI",
               "PostgreSQL",              
