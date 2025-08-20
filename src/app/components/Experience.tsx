@@ -28,16 +28,16 @@ const experiences: ExperienceItem[] = [
     period: "2022 - Present",
     description: [
       "Developed full-stack web applications using modern technologies",
-      "Built responsive user interfaces with React, Next.js, and TypeScript",
-      "Implemented backend solutions with Node.js and database integration",
+      "Built responsive user interfaces with React, NextJS, and TypeScript",
+      "Implemented backend solutions with NodeJS and database integration",
       "Collaborated with clients to deliver scalable business solutions",
       "Created invoice tracking applications for tradespeople",
     ],
     technologies: [
       "React",
-      "Next.js",
+      "NextJS",
       "TypeScript",
-      "Node.js",
+      "NodeJS",
       "Express",
       "PostgreSQL",
       "Python",
@@ -85,12 +85,12 @@ const skills = [
   {
     name: "Frontend",
     icon: Globe,
-    items: ["React", "Next.js", "TypeScript", "Tailwind CSS"],
+    items: ["React", "NextJS", "TypeScript", "Tailwind CSS"],
   },
   {
     name: "Backend",
     icon: Database,
-    items: ["Node.js", "Express", "Python", "FastAPI", "PostgreSQL", "MongoDB", "Supabase"],
+    items: ["NodeJS", "Express", "Python", "FastAPI", "PostgreSQL", "MongoDB", "Supabase"],
   },
   {
     name: "Tools",
