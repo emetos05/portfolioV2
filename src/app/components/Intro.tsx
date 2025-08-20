@@ -101,9 +101,9 @@ const Intro: React.FC = () => {
               "Next.js",
               "TypeScript",
               "Node.js",
-              "C#",
-              "PostgreSQL",
-              "MongoDB",
+              "Python",
+              "FastAPI",
+              "PostgreSQL",              
               "Tailwind CSS",
             ].map((tech, index) => (
               <motion.span
