@@ -24,7 +24,7 @@ const Intro: React.FC = () => {
           I'm a software engineer building modern apps that eliminate business
           pain points. With experience in full-stack development, I specialize
           in creating scalable solutions using modern technologies like React,
-          NextJS, TypeScript, Python and NodeJS.
+          Next.js, TypeScript, Python and Node.js.
         </p> */}
 
         <motion.div
@@ -97,14 +97,15 @@ const Intro: React.FC = () => {
           <p className="text-sm text-green-300 mb-3">Currently working with:</p>
           <div className="flex flex-wrap gap-3">
             {[
-              "React",
-              "NextJS",
+              "Next.js",
               "TypeScript",
-              "NodeJS",
-              "Python",
-              "FastAPI",
-              "PostgreSQL",              
+              "React",
+              "Node.js",
+              "Express",
+              "ASP.Net",
+              "PostgreSQL",
               "Tailwind CSS",
+              "Python",
             ].map((tech, index) => (
               <motion.span
                 key={tech}

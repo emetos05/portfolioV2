@@ -22,7 +22,7 @@ A modern, responsive portfolio website built with Next.js, React, TypeScript, an
 
 ### Core Framework
 
-- **[Next.js 14](https://nextjs.org/)** - React framework with App Router
+- **[Next.js 14](https://Next.js.org/)** - React framework with App Router
 - **[React 18](https://reactjs.org/)** - Component-based UI library
 - **[TypeScript](https://www.typescriptlang.org/)** - Type-safe JavaScript
 
@@ -232,7 +232,7 @@ This project is open source and available under the [MIT License](LICENSE).
 - Design inspiration from modern portfolio trends
 - Icons by [Lucide](https://lucide.dev/)
 - Animations powered by [Framer Motion](https://www.framer.com/motion/)
-- Built with [Next.js](https://nextjs.org/) and [Tailwind CSS](https://tailwindcss.com/)
+- Built with [Next.js](https://Next.js.org/) and [Tailwind CSS](https://tailwindcss.com/)
 
 ## 📧 Contact
 

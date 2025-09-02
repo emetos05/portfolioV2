@@ -129,8 +129,8 @@ export default function Home() {
                 I'm a software engineer focused on eliminating business and
                 operations bottlenecks with software solutions. With experience
                 in full-stack development, I specialize in creating scalable
-                solutions using modern web technologies like React, NextJS,
-                TypeScript and NodeJS.
+                solutions using modern web technologies like React, Next.js,
+                TypeScript and Node.js.
               </p>
             </motion.div>
 
