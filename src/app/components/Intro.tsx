@@ -73,18 +73,6 @@ const Intro: React.FC = () => {
             <Mail className="w-4 h-4" />
             Get In Touch
           </motion.a>
-
-          <motion.a
-            href="/resume.pdf"
-            target="_blank"
-            rel="noopener noreferrer"
-            className="flex items-center gap-2 px-6 py-3 border border-[#c7ff5e] text-[#c7ff5e] rounded-lg hover:bg-[#c7ff5e]/10 transition-colors"
-            whileHover={{ scale: 1.05, y: -2 }}
-            whileTap={{ scale: 0.95 }}
-          >
-            <Download className="w-4 h-4" />
-            Resume
-          </motion.a>
         </motion.div>
 
         {/* Tech Stack Preview */}
