@@ -22,28 +22,26 @@ interface ExperienceItem {
 
 const experiences: ExperienceItem[] = [
   {
-    title: "Full-Stack Developer",
-    company: "Freelance",
+    title: "Applied AI Engineer",
+    company: "NeuroLink Consulting inc.",
     location: "Toronto, ON",
-    period: "2022 - Present",
+    period: "2025 - Present",
     description: [
-      "Developed full-stack web applications using modern technologies",
+      "Developed multi-agent system for shopping deals aggregation",
       "Built responsive user interfaces with React, Next.js, and TypeScript",
       "Implemented backend solutions with Node.js and database integration",
       "Collaborated with clients to deliver scalable business solutions",
       "Created invoice tracking applications for tradespeople",
     ],
     technologies: [
-      "React",
       "Next.js",
       "TypeScript",
       "Node.js",
-      "Express",
       "PostgreSQL",
       "Python",
       "Tailwind CSS",
-      "Auth0",
-      "Supabase",
+      "FastAPI",
+      "Google ADK"
     ],
   },
   {
