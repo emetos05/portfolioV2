@@ -25,7 +25,7 @@ const experiences: ExperienceItem[] = [
     title: "Applied AI Engineer",
     company: "NeuroLink Consulting inc.",
     location: "Toronto, ON",
-    period: "2025 - Present",
+    period: "2024 - Present",
     description: [
       "Developed multi-agent system for shopping deals aggregation",
       "Built responsive user interfaces with React, Next.js, and TypeScript",
