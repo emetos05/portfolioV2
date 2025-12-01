@@ -22,7 +22,7 @@ interface ExperienceItem {
 
 const experiences: ExperienceItem[] = [
   {
-    title: "Applied AI Engineer",
+    title: "AI Software Engineer",
     company: "NeuroLink Consulting inc.",
     location: "Toronto, ON",
     period: "2024 - Present",
